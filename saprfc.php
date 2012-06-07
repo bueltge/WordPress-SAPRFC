@@ -46,11 +46,11 @@ require_once 'inc/saprfc.php';
 // Create saprfc-instance
 $sap = new saprfc( array(
 	'logindata' => array(
-		  'ASHOST'  => 'k10main.zeiss.org' // application server
-		, 'SYSNR'   => '09'  // system number
-		, 'CLIENT'  => '010' // client
-		, 'USER'    => 'zjfbt'  // user
-		, 'PASSWD'  => 'nimabue444'  // password
+		  'ASHOST'  => 'your_system.main.org' // application server
+		, 'SYSNR'   => '0815'  // system number
+		, 'CLIENT'  => '900' // client
+		, 'USER'    => 'Your_User'  // user
+		, 'PASSWD'  => 'Your_Password'  // password
 	)
 	, 'show_errors' => TRUE  // let class printout errors
 	, 'debug' => FALSE  // detailed debugging information
