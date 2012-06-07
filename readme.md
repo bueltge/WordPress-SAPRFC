@@ -1,5 +1,5 @@
 # WordPress & SAPRFC
-Call ABAP functions for display content from SAP
+Call ABAP functions for display content from SAP in WordPress Widgets
 
 ## Description
 This plugin is an small example for display data from an SAP R/3 system in WordPress Widgets.
@@ -15,11 +15,11 @@ SAPRFC is a extension module for PHP 4 and PHP 5. With SAPRFC is possible call A
 * [SAPRFC extension module for PHP](http://saprfc.sourceforge.net/)
 
 ### Installation
-## SAPRFC
+#### SAPRFC
 1. Crab the [SAPRFC](http://saprfc.sourceforge.net/) lib for PHP
 1. Install, follow the [install instruction](http://saprfc.sourceforge.net/src/INSTALL) of the project page of this libary
 
-## WordPress plugin
+#### WordPress plugin
 1. Unpack the download-package
 1. Upload the file to the `/wp-content/plugins/` directory
 1. Change the login data to your SAP system in `saprfc.php` inside the plugin folder
