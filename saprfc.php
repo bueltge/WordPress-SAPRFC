@@ -48,6 +48,7 @@ require_once 'inc/saprfc.php';
 // Don't login to the productive system. 
 *****************************************************
 // Create saprfc-instance
+// change the login data with your system and users
 $sap = new saprfc( array(
 	'logindata' => array(
 		  'ASHOST'  => 'your_system.main.org' // application server
@@ -60,5 +61,7 @@ $sap = new saprfc( array(
 	, 'debug' => FALSE  // detailed debugging information
 ) ) ;
 
+// include the widget for display material data
 require_once 'widgets/class-sap_material_widget.php';
+// include the widget for list all sapoffice users
 require_once 'widgets/class-sap_userlist_widget.php';
