@@ -43,6 +43,10 @@ if ( ! function_exists( 'add_filter' ) ) {
 
 require_once 'inc/saprfc.php';
 
+// WARNING: The password is send as the clear text!!!
+// Don't use this script in the Internet environment.
+// Don't login to the productive system. 
+*****************************************************
 // Create saprfc-instance
 $sap = new saprfc( array(
 	'logindata' => array(
