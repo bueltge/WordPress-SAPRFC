@@ -77,6 +77,7 @@ if ( ! class_exists( 'Sap_Userlist_Widget' ) ) {
 				echo $before_title . $title . $after_title;
 			
 			global $sap;
+			// Usee SE37 oder BAPI explorer to read more about the functions and his params
 			// Call-Function
 			$result = $sap->callFunction( "SO_USER_LIST_READ",
 				array(

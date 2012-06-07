@@ -77,6 +77,7 @@ if ( ! class_exists( 'SAP_Material_Widget' ) ) {
 				echo $before_title . $title . $after_title;
 			
 			global $sap;
+			// Usee SE37 oder BAPI explorer to read more about the functions and his params
 			// Call Material get detail
 			$result = $sap->callFunction( 'BAPI_MATERIAL_GET_DETAIL',
 				array(
