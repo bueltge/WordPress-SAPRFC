@@ -5,7 +5,7 @@
  * Text Domain: saprfc
  * Domain Path: /languages
  * Description: Get Data from SAP R/3
- * Version:     0.0.1
+ * Version:     0.0.2
  * Author:      Frank Bültge
  * Author URI:  http://bueltge.de
  * License:     GPLv3
@@ -43,12 +43,14 @@ if ( ! function_exists( 'add_filter' ) ) {
 
 require_once 'inc/saprfc.php';
 
-// WARNING: The password is send as the clear text!!!
-// Don't use this script in the Internet environment.
-// Don't login to the productive system. 
-*****************************************************
-// Create saprfc-instance
-// change the login data with your system and users
+/**
+ * WARNING: The password is send as the clear text!!!
+ * Don't use this script in the Internet environment.
+ * Don't login to the productive system. 
+ *****************************************************
+ * Create saprfc-instance
+ * change the login data with your system and users
+ */
 $sap = new saprfc( array(
 	'logindata' => array(
 		  'ASHOST'  => 'your_system.main.org' // application server
